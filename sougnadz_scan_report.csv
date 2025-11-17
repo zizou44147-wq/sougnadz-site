@@ -1,0 +1,65 @@
+issue_type,file,preview
+getUserMedia,components/VirtualShowroomModal.tsx,"import React, { useState, useRef, useCallback } from 'react';
+import { useLocalization } from '../hooks/useLocalization';
+import { GoogleGenAI } from ""@google/genai"";
+import { imageUrlToBase64, fileToBase64 } from '../utils/imageUtils';
+import SparklesIcon from './icons/SparklesIcon';
+import CameraIcon from './icons/CameraIcon';
+import UploadIcon from './icons/UploadIcon';
+
+interface VirtualShowro"
+getUserMedia,components/VisualSearchModal.tsx,"import React, { useState, useRef, useCallback, useEffect } from 'react';
+import { useNavigate } from 'react-router-dom';
+import { useLocalization } from '../hooks/useLocalization';
+import { findSimilarByImage } from '../services/api';
+import { fileToBase64 } from '../utils/imageUtils';
+import CameraIcon from './icons/CameraIcon';
+import UploadIcon from './icons/UploadIcon';
+import SparklesIcon fro"
+window_document,App.tsx,
+window_document,index.tsx,
+window_document,services/api.ts,
+window_document,components/Header.tsx,
+window_document,components/ListingCard.tsx,
+window_document,components/AutomobileListingCard.tsx,
+window_document,components/ScrollToTopButton.tsx,
+window_document,components/ImageCropModal.tsx,
+window_document,components/MarqueeBanner.tsx,
+window_document,components/Guestbook.tsx,
+window_document,hooks/useLocalization.tsx,
+window_document,hooks/useTheme.tsx,
+window_document,hooks/useSpeechRecognition.ts,
+window_document,hooks/usePageMeta.ts,
+window_document,pages/HelpPage.tsx,
+window_document,pages/ListingDetailsPage.tsx,
+window_document,pages/PostAdFormPage.tsx,
+window_document,pages/PrivacyPage.tsx,
+window_document,pages/TermsPage.tsx,
+window_document,pages/AboutPage.tsx,
+window_document,pages/ImageEditorPage.tsx,
+window_document,utils/imageUtils.ts,
+no_export,index.tsx,"import React from 'react';
+import ReactDOM from 'react-dom/client';
+import App from './App';
+import { LocalizationProvider } from './hooks/useLocalization';
+import { ThemeProvider } from './hooks/useTheme';
+import { UserDataProvider } from './hooks/useUserData';
+import { WantedItemsProvider } from './hooks/useWantedItems';
+import { AuthProvider } from './hooks/useAuth';
+import { GuestbookProvider "
+no_export,components/Logo3D.tsx,"/* This file is empty and appears to be unused or a placeholder. */
+"
+no_export,components/LogoFlat.tsx,"/* This file is empty and appears to be unused or a placeholder. */
+"
+no_export,components/Filters-Sidebar.tsx,"/* 
+  This file is empty and appears to be a duplicate of 'FiltersSidebar.tsx' with a typo in the filename.
+  It is not used in the application.
+*/
+"
+no_export,components/TopFiltersBar.tsx,"/* This file is empty and appears to be unused or a placeholder. */
+"
+no_export,components/ConversationBubble.tsx,
+no_export,components/icons/MagicWandIcon.tsx,"/* This file is empty and appears to be unused or a placeholder. */
+"
+no_export,pages/LanguagePracticePage.tsx,
+no_export,utils/audioUtils.ts,

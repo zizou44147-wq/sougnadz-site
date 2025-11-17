@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><path fill='%230B5FA5' d='M0,50 A50,50 0 0,1 100,50 L50,50 Z' /><path fill='%23E87A16' d='M0,50 A50,50 0 0,0 100,50 L50,50 Z' /></svg>">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>sougnadz.com - Annonces en Algérie</title>
+    
+    <!-- SEO & Social Sharing Meta Tags -->
+    <meta name="description" content="Achetez et vendez tout en Algérie sur sougnadz.com. Trouvez des voitures, des biens immobiliers, des téléphones et plus encore. Le Ouedkniss moderne pour les annonces algériennes." />
+    <meta name="keywords" content="ouedkniss, oued kniss, ouedkniss algerie, ouedkniss auto, ouedkniss telephone, ouedkniss immobilier, sougnadz, sougnadz.com, annonces algérie, vente algérie, achat algérie, marché algérien, petites annonces, dz, alg, alger, oran, constantine, annaba, sétif, blida, batna, djelfa, chlef, tlemcen, béjaïa, voitures, automobiles, véhicules, immobilier, appartements, maisons, terrains, location, vente, téléphones, smartphones, iphone, samsung, xiaomi, oppo, realme, condor, informatique, pc portable, ordinateurs, accessoires, électroménager, emploi, travail, recrutement, ouedkniss voitures, ouedkniss 2024, Renault, Peugeot, Volkswagen, Dacia, Hyundai, Kia, Symbol, Clio, 208, 308, Golf, Polo, Ibiza, Duster, Accent, Picanto, neuf, occasion, prix, marché, سوق, واد كنيس, الجزائر, بيع, شراء, سيارات, عقارات, هواتف, إعلانات, tomobil, kera dar, souq tomobil dz, prix telephone occasion alger, ouedkniss services, سوق السيارات, واد كنيس هواتف, بيع وشراء في الجزائر" />
+    <meta property="og:title" content="sougnadz.com - Annonces en Algérie" />
+    <meta property="og:description" content="La plateforme moderne pour les petites annonces en Algérie. Achetez et vendez facilement." />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
+    <meta property="og:site_name" content="sougnadz.com" />
+
+    <!-- Pre-connect to critical origins -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    
+    <!-- Preload the main application script -->
+    <link rel="modulepreload" href="/index.tsx">
+
+    <script>
+      // Initialize theme from localStorage to prevent flash of wrong theme
+      if (localStorage.getItem('theme') === 'dark' || (!('theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+        document.documentElement.classList.add('dark');
+      } else {
+        document.documentElement.classList.remove('dark');
+      }
+      tailwind.config = {
+        darkMode: 'class', // Enable class-based dark mode
+        theme: {
+          extend: {
+            fontFamily: {
+              sans: ['Nunito', 'sans-serif'],
+              cairo: ['Cairo', 'sans-serif'],
+            },
+          },
+        },
+      }
+    </script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- Preload the font stylesheet for faster rendering -->
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Cairo:wght@900&family=Nunito:wght@900&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cairo:wght@900&family=Nunito:wght@900&display=swap"></noscript>
+    
+    <!-- JSON-LD Structured Data for SEO -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "Organization",
+          "name": "sougnadz.com",
+          "url": "https://ai.studio/apps/drive/1WeqlZJ3IysROdLy7TdMv7xlR8OWLazUW",
+          "logo": "https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6"
+        },
+        {
+          "@type": "WebSite",
+          "name": "sougnadz.com",
+          "url": "https://ai.studio/apps/drive/1WeqlZJ3IysROdLy7TdMv7xlR8OWLazUW",
+          "potentialAction": {
+            "@type": "SearchAction",
+            "target": "https://ai.studio/apps/drive/1WeqlZJ3IysROdLy7TdMv7xlR8OWLazUW/category/all?geniusQuery={search_term_string}",
+            "query-input": "required name=search_term_string"
+          }
+        }
+      ]
+    }
+    </script>
+    
+    <style>
+      /* Light theme scrollbar */
+      ::-webkit-scrollbar {
+        width: 8px;
+        height: 8px;
+      }
+      ::-webkit-scrollbar-track {
+        background: #f1f5f9;
+      }
+      ::-webkit-scrollbar-thumb {
+        background: #94a3b8;
+        border-radius: 4px;
+      }
+      ::-webkit-scrollbar-thumb:hover {
+        background: #64748b;
+      }
+      
+      /* Dark theme scrollbar */
+      .dark ::-webkit-scrollbar-track {
+        background: #020617;
+      }
+      .dark ::-webkit-scrollbar-thumb {
+        background: #475569;
+      }
+      .dark ::-webkit-scrollbar-thumb:hover {
+        background: #64748b;
+      }
+
+      /* Favorite button pop animation */
+      @keyframes heart-pop {
+        0% { transform: scale(1); }
+        50% { transform: scale(1.4); }
+        100% { transform: scale(1); }
+      }
+      .heart-popping {
+        animation: heart-pop 0.3s cubic-bezier(0.25, 1, 0.5, 1);
+      }
+
+      /* Global smooth theme transition */
+      *,
+      *::before,
+      *::after {
+        transition-property: color, background-color, border-color, text-decoration-color, fill, stroke;
+        transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+        transition-duration: 300ms;
+      }
+
+      /* Animations for Language Practice Page */
+      @keyframes pulse-blue {
+        0%, 100% { box-shadow: 0 0 0 0 rgba(59, 130, 246, 0.7); }
+        50% { box-shadow: 0 0 0 20px rgba(59, 130, 246, 0); }
+      }
+      .animate-pulse-blue {
+        animation: pulse-blue 2s infinite;
+      }
+
+      @keyframes pulse-purple {
+        0%, 100% { box-shadow: 0 0 0 0 rgba(139, 92, 246, 0.7); }
+        50% { box-shadow: 0 0 0 20px rgba(139, 92, 246, 0); }
+      }
+      .animate-pulse-purple {
+        animation: pulse-purple 2s infinite;
+      }
+      
+      @keyframes fade-in-left {
+        from { opacity: 0; transform: translateX(-20px); }
+        to { opacity: 1; transform: translateX(0); }
+      }
+      .animate-fade-in-left { animation: fade-in-left 0.5s ease-out forwards; }
+
+      @keyframes fade-in-right {
+        from { opacity: 0; transform: translateX(20px); }
+        to { opacity: 1; transform: translateX(0); }
+      }
+      .animate-fade-in-right { animation: fade-in-right 0.5s ease-out forwards; }
+
+      /* Fire button effect for categories */
+      .category-fire-button {
+        background-color: #334155; /* slate-700 */
+        color: #e2e8f0; /* gray-200 */
+        border-radius: 9999px;
+        padding: 0.25rem 0.5rem; /* py-1 px-2 */
+        font-size: 0.875rem; /* text-sm */
+        transition: all 0.3s ease-out;
+        border: 1px solid transparent;
+      }
+
+      .category-fire-button:hover {
+        color: #fff;
+        border-color: rgba(251, 146, 60, 0.5); /* orange-400 */
+        background-color: #475569; /* slate-600 */
+        transform: translateY(-2px) scale(1.05);
+        animation: fire-pulse 1.5s infinite;
+      }
+
+      @keyframes fire-pulse {
+        0% {
+          box-shadow: 0 0 8px rgba(251, 146, 60, 0.7),
+                      0 0 16px rgba(251, 146, 60, 0.5),
+                      0 0 24px rgba(234, 88, 12, 0.3);
+        }
+        50% {
+          box-shadow: 0 0 12px rgba(251, 146, 60, 1),
+                      0 0 24px rgba(251, 146, 60, 0.7),
+                      0 0 36px rgba(234, 88, 12, 0.5);
+        }
+        100% {
+          box-shadow: 0 0 8px rgba(251, 146, 60, 0.7),
+                      0 0 16px rgba(251, 146, 60, 0.5),
+                      0 0 24px rgba(234, 88, 12, 0.3);
+        }
+      }
+
+      /* Marquee Banner Animation */
+      @keyframes marquee-ltr { /* Standard right-to-left scroll */
+        from { transform: translateX(0); }
+        to { transform: translateX(-50%); }
+      }
+      @keyframes marquee-rtl { /* New left-to-right scroll */
+        from { transform: translateX(-50%); }
+        to { transform: translateX(0); }
+      }
+      
+    </style>
+  <script type="importmap">
+{
+  "imports": {
+    "react/": "https://aistudiocdn.com/react@^19.2.0/",
+    "react": "https://aistudiocdn.com/react@^19.2.0",
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/",
+    "react-router": "https://aistudiocdn.com/react-router@^6.25.1",
+    "react-router-dom": "https://aistudiocdn.com/react-router-dom@^6.25.1",
+    "@google/genai": "https://aistudiocdn.com/@google/genai@^1.29.0",
+    "@vitejs/plugin-react": "https://aistudiocdn.com/@vitejs/plugin-react@^5.1.1",
+    "vite": "https://aistudiocdn.com/vite@^7.2.2",
+    "path": "https://aistudiocdn.com/path@^0.12.7",
+    "url": "https://aistudiocdn.com/url@^0.11.4",
+    "fs": "https://aistudiocdn.com/fs@^0.0.1-security",
+    "next": "https://aistudiocdn.com/next@^16.0.3",
+    "process": "https://aistudiocdn.com/process@^0.11.10"
+  }
+}
+</script>
+<link rel="stylesheet" href="/index.css">
+</head>
+  <body class="bg-white text-gray-800 dark:bg-black dark:text-gray-300">
+    <div id="root"></div>
+    <script type="module" src="/index.tsx"></script>
+  </body>
+</html>

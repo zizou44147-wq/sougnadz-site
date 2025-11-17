@@ -1,0 +1,68 @@
+{
+  "top_level": [
+    ".env.local",
+    ".gitignore",
+    "App.tsx",
+    "README.md",
+    "components",
+    "constants",
+    "hooks",
+    "index.html",
+    "index.tsx",
+    "metadata.json",
+    "package.json",
+    "pages",
+    "public",
+    "services",
+    "sougnadz.zip",
+    "tsconfig.json",
+    "types.ts",
+    "utils",
+    "vite.config.ts"
+  ],
+  "package_json": {
+    "name": "sougnadz.com",
+    "private": true,
+    "version": "0.0.0",
+    "type": "module",
+    "scripts": {
+      "dev": "vite",
+      "build": "vite build",
+      "preview": "vite preview"
+    },
+    "dependencies": {
+      "react": "^19.2.0",
+      "react-dom": "^19.2.0",
+      "react-router": "^6.25.1",
+      "react-router-dom": "^6.25.1",
+      "@google/genai": "^1.29.0"
+    },
+    "devDependencies": {
+      "@types/node": "^22.14.0",
+      "@vitejs/plugin-react": "^5.0.0",
+      "typescript": "~5.8.2",
+      "vite": "^6.2.0"
+    }
+  },
+  "has_pages": true,
+  "has_app": false,
+  "empty_export_files": [],
+  "get_user_media_files": [
+    "components/VirtualShowroomModal.tsx",
+    "components/VisualSearchModal.tsx"
+  ],
+  "window_document_usage_count": 22,
+  "api_routes": [],
+  "components_with_no_export": [
+    "index.tsx",
+    "components/Logo3D.tsx",
+    "components/LogoFlat.tsx",
+    "components/Filters-Sidebar.tsx",
+    "components/TopFiltersBar.tsx",
+    "components/ConversationBubble.tsx",
+    "components/icons/MagicWandIcon.tsx",
+    "pages/LanguagePracticePage.tsx",
+    "utils/audioUtils.ts"
+  ],
+  "report_csv": "/mnt/data/sougnadz_sougnadz_extract/sougnadz_scan_report.csv"
+}

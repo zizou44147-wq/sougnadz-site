@@ -1,0 +1,6 @@
+{
+  "created_api": true,
+  "api_path": "pages/api/products.ts",
+  "publish_test_page": "pages/publish-fix.tsx",
+  "product_client": "services/productClient.ts"
+}
